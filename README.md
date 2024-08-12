@@ -1,4 +1,4 @@
-# petclinic_kubernetes_part4
+# EKS-Petclinic
 
 
 ### step1-
