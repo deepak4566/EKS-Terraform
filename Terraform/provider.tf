@@ -18,3 +18,13 @@ variable "cluster_name" {
 variable "cluster_version" {
   default = "1.22"
 }
+
+provider "helm" {
+  kubernetes {
+    config_path = "~/.kube/config"
+  }
+}
+
+provider "kubernetes" {
+  config_path = "~/.kube/config"
+}
